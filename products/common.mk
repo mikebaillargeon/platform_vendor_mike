@@ -1,10 +1,10 @@
 # Generic product
-PRODUCT_NAME := pete
-PRODUCT_BRAND := pete
+PRODUCT_NAME := mike
+PRODUCT_BRAND := mike
 PRODUCT_DEVICE := generic
 
 # Common overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/mike/overlay/common
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
