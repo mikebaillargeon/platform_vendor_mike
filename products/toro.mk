@@ -18,18 +18,18 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_ID=ICL53F BUILD_FINGERP
 
 # Copy toro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-    vendor/mike/proprietary/tuna/app/Thinkfree.apk:system/app/Thinkfree.apk \
-    vendor/mike/proprietary/tuna/media/bootanimation.zip:system/media/bootanimation.zip \
-    vendor/mike/proprietary/tuna/media/LMprec_508.emd:system/media/LMprec_508.emd \
-    vendor/mike/proprietary/tuna/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
-    vendor/mike/proprietary/tuna/media/audio/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
-    vendor/mike/proprietary/common/app/Microbes.apk:system/app/Microbes.apk \
-    vendor/mike/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
-    vendor/mike/proprietary/common/etc/permissions/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
-    vendor/mike/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-    vendor/mike/proprietary/common/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
-    vendor/mike/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so \
-    vendor/mike/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so
+    vendor/pete/proprietary/tuna/app/Thinkfree.apk:system/app/Thinkfree.apk \
+    vendor/pete/proprietary/tuna/media/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/pete/proprietary/tuna/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/pete/proprietary/tuna/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
+    vendor/pete/proprietary/tuna/media/audio/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
+    vendor/pete/proprietary/common/app/Microbes.apk:system/app/Microbes.apk \
+    vendor/pete/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
+    vendor/pete/proprietary/common/etc/permissions/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
+    vendor/pete/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
+    vendor/pete/proprietary/common/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
+    vendor/pete/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so \
+    vendor/pete/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so
 
 # Inherit Face lock security blobs
 -include vendor/mike/products/common_facelock.mk
